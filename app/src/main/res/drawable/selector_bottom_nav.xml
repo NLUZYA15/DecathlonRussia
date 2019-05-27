@@ -1,18 +1,11 @@
 <selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
     <item
+        android:drawable="@drawable/selected_item"
         android:state_checked="true">
-        <rotate
-            android:fromDegrees="110"
-            android:toDegrees="260" >
+    </item>
 
-            <shape>
-                <size
-                    android:width="2dp"
-                    android:height="25dp" />
-                <solid
-                    android:color="@color/white" />
-            </shape>
-        </rotate>
-
+    <item
+        android:drawable="@drawable/selected_first_item"
+        android:state_first="true">
     </item>
 </selector>

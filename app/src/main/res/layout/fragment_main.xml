@@ -30,7 +30,6 @@
             app:menu="@menu/bottom_main_menu"
             app:itemBackground="@drawable/selector_bottom_nav"
             android:background="@drawable/mainbackground"
-            app:itemTextColor="@drawable/bottom_menu_selector"
             app:itemIconTint="@drawable/bottom_menu_selector"
             app:itemHorizontalTranslationEnabled="false"/>
 

@@ -3,6 +3,7 @@ package ru.decathlon.motherapp.ui.fragments;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -44,10 +45,19 @@ public class MainScreenFragment extends Fragment implements Injectable {
 
         View view = inflater.inflate(R.layout.fragment_main, container, false);
         ButterKnife.bind(this, view);
+        /*bottomMenu.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                if (item.getItemId() == R.id.catalogueFragment) {
+                    bottomMenu.getMenu().findItem(R.id.catalogueFragment).
+                    return true;
+                }
+                return false;
+            }
+        });*/
 
         return view;
     }
-
 
 
 }
