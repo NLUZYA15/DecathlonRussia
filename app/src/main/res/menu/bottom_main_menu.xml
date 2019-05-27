@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/patientsFragment"
+    <item android:id="@+id/homeFragment"
         android:title=""
         android:icon="@drawable/home" />
 
-    <item android:id="@+id/messagesFragment"
+    <item android:id="@+id/catalogueFragment"
         android:title=""
         android:icon="@drawable/catalogue"/>
+
+    <item android:id="@+id/store_androidFragment"
+        android:title=""
+        android:icon="@drawable/store_android"/>
+
+    <item android:id="@+id/account_androidFragment"
+        android:title=""
+        android:icon="@drawable/account_android"/>
 
     <item
         android:id="@+id/profileFragment"

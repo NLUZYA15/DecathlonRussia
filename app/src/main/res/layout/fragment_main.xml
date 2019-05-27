@@ -28,12 +28,10 @@
             android:layout_height="56dp"
             android:layout_gravity="bottom|start"
             app:menu="@menu/bottom_main_menu"
-            android:background="@color/white"
-            app:itemBackground="@color/white"
-            app:elevation="8dp"
+            app:itemBackground="@drawable/selector_bottom_nav"
+            android:background="@drawable/mainbackground"
             app:itemTextColor="@drawable/bottom_menu_selector"
             app:itemIconTint="@drawable/bottom_menu_selector"
-            app:labelVisibilityMode="selected"
             app:itemHorizontalTranslationEnabled="false"/>
 
     </LinearLayout>

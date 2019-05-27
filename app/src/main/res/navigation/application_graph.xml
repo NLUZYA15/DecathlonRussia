@@ -9,4 +9,9 @@
         android:name="ru.decathlon.motherapp.ui.fragments.MainScreenFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/splashScreenFragment2"
+        android:name="ru.decathlon.motherapp.ui.fragments.SplashScreenFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
 </navigation>
