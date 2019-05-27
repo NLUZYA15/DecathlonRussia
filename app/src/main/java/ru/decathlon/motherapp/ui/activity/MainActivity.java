@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import javax.inject.Inject;
 
@@ -31,10 +32,13 @@ public class MainActivity extends AppBaseActivity implements HasSupportFragmentI
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        navigationHostFragment = getSupportFragmentManager().findFragmentById(R.id.main_nav_host_fragment);
+        mainNavigationController = Navigation.findNavController(this, R.id.main_nav_host_fragment);
 
+    }
 
-
-
+    public NavController getMainNavController() {
+        return mainNavigationController;
     }
 
 
@@ -44,7 +48,7 @@ public class MainActivity extends AppBaseActivity implements HasSupportFragmentI
 
     @Override
     public AndroidInjector<Fragment> supportFragmentInjector() {
-        return null;
+        return androidInjector;
     }
 
     @Override

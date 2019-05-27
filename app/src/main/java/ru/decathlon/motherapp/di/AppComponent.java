@@ -12,6 +12,7 @@ import ru.decathlon.motherapp.AppMain;
 @Singleton
 @Component(modules = {
         AndroidSupportInjectionModule.class,
+        ActivityModule.class
 
 })
 public interface AppComponent {

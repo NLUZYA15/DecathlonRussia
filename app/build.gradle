@@ -58,6 +58,11 @@ android {
         }
     }
 
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
             //generate output apk file name
