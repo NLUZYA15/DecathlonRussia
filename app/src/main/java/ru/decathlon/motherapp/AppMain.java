@@ -15,7 +15,7 @@ import ru.decathlon.motherapp.di.AppMainInjector;
 
 public class AppMain extends Application implements HasActivityInjector, HasServiceInjector {
 
-
+    //temp commit
     @Inject
     DispatchingAndroidInjector<Activity> activityAndroidInjector;
 
